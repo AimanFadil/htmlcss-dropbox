@@ -1,0 +1,143 @@
+/* Contenitore - riga - collonna - content */
+/* UTILITY */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+.content{
+    display: flex;
+}
+.container{
+    max-width: 1200px;
+}
+
+.padding-section{
+    padding-top: 50px;
+}
+
+.padding-col{
+    padding: 40px 20px 20px 20px;
+}
+
+.margin-col{
+    margin-top: 30px;
+}
+.container-sm{
+    width: 991px;
+
+}
+.row{
+    width: 100%;
+    display: flex;
+}
+
+.col-30{
+    width: 30%;
+}
+
+.col-33{
+    width: 33%;
+}
+
+.col-50{
+    width: 50%;
+}
+
+.col-70{
+    width: 70%;
+}
+
+.col-100{
+    width: 100%;
+}
+
+.margin-container{
+    margin: 0 auto;
+}
+
+.blu-button{
+    background-color: rgb(5, 72, 255);
+    padding: 7px 10px;
+    color: white;
+    text-align: center;
+}
+
+.right{
+    justify-content: flex-end;
+}
+
+.align{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+h1{
+    font-size: xx-large;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.border{
+    border: solid 1px lightgrey;
+}
+
+p > strong{
+    padding-top: 30px;
+}
+
+/* BG */
+.bg-red{
+    background-color: red;
+}
+
+.bg-green{
+    background-color: green;
+}
+
+.bg-blu{
+    background-color: blue;
+}
+
+.bg-white{
+    background-color: white;
+}
+
+.bg-azzur{
+    background-color: rgb(167, 209, 247);
+}
+
+/* HEADER */
+header{
+    position: relative;
+    margin: 10px;
+}
+
+li{
+    list-style: none;
+}
+
+.center-text{
+    text-align: center;
+}
+.center-title{
+    justify-content: center;
+    
+}
+/* MAIN */
+
+.img-jumbo{
+    width: 100%;
+}
+
+.space-bet{
+  justify-content: space-around;
+  display: flex;
+}
+
+
+/* FOOTER */
