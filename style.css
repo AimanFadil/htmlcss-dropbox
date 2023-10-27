@@ -1,4 +1,4 @@
-/* Contenitore - riga - collonna - content */
+/* Contenitore - riga - colonna - content */
 /* UTILITY */
 *{
     padding: 0;
@@ -18,6 +18,9 @@
     padding-top: 50px;
 }
 
+.margin-top{
+    margin-top: 15px;
+}
 .padding-col{
     padding: 10px 40px 40px 40px ;
 }
@@ -68,6 +71,7 @@
 
 .right{
     justify-content: flex-end;
+   
 }
 
 .align{
@@ -89,6 +93,9 @@ h2{
     text-transform: uppercase;
 }
 
+h3{
+    text-transform: uppercase;
+}
 .border{
     border: solid 1px lightgrey;
 }
@@ -97,6 +104,7 @@ li, hr{
     margin-top: 15px;
     list-style-type: none;
 }
+
 
 /* BG */
 .bg-red{
@@ -152,5 +160,22 @@ header{
     line-height: 4;
     font-size: xx-large;
 }
+
+.inline{
+    display: inline-flex;
+}
+
+.white-button{
+    background-color: rgb(255, 255, 255);
+    padding: 7px 10px;
+    text-align: center;
+    border: solid 1px black;
+    width: 150px;
+}
+
+.wrap{
+    flex-wrap: wrap;
+}
+
 
 /* FOOTER */
