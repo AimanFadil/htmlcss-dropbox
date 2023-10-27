@@ -19,7 +19,7 @@
 }
 
 .padding-col{
-    padding: 40px ;
+    padding: 10px 40px 40px 40px ;
 }
 
 .margin-col{
@@ -148,5 +148,9 @@ header{
   display: flex;
 }
 
+.arrow{
+    line-height: 4;
+    font-size: xx-large;
+}
 
 /* FOOTER */
