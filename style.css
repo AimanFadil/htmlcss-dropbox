@@ -31,7 +31,10 @@
 }
 .container-sm{
     width: 991px;
+}
 
+.container-big{
+    width: 100%;
 }
 .row{
     width: 100%;
@@ -56,6 +59,14 @@
 
 .col-100{
     width: 100%;
+}
+
+.col-16{
+    width: 16%;
+}
+
+.invert{
+    filter: invert(100%);
 }
 
 .margin-container{
@@ -107,14 +118,23 @@ li, hr{
 
 
 /* BG */
+.bg-mag{
+    background-color: rgb(158, 47, 47);
+}
+
+.bg-litemag{
+    background-color: rgb(163, 28, 28);
+}
 .bg-red{
     background-color: red;
 }
-
 .bg-green{
-    background-color: green;
+    background-color: rgb(101, 199, 101);
 }
 
+.bg-cele{
+    background-color: rgb(49, 126, 226);
+}
 .bg-blu{
     background-color: blue;
 }
@@ -127,13 +147,22 @@ li, hr{
     background-color: rgb(167, 209, 247);
 }
 
+.bg-yellow{
+    background-color: yellow;
+}
+
+.bg-grey{
+    background-color: rgb(243, 248, 248);
+}
 /* HEADER */
 header{
     position: relative;
     margin: 10px;
 }
 
-
+.img-design{
+    width: 50%;
+}
 
 .center-text{
     text-align: center;
@@ -146,6 +175,10 @@ header{
     margin-top: 0;
 }
 /* MAIN */
+
+.height-px{
+    height: 300px;
+}
 
 .img-jumbo{
     width: 100%;
@@ -170,10 +203,31 @@ header{
     padding: 7px 10px;
     text-align: center;
     border: solid 1px black;
-    width: 150px;
+    
+}
+
+.whiteTras-button{
+    background-color: rgb(255, 255, 255);
+    border: none;
+    height: fit-content;
+    padding: 5px 10px;
+    color: rgba(0, 0, 0, 0.589);
+    
+    
 }
 
 .wrap{
+    flex-wrap: wrap;
+}
+
+.quadrato{
+    height: calc(100vw / 6);
+    width: 50%;
+}
+
+.content-quad{
+    width: 100%;
+    display: flex;
     flex-wrap: wrap;
 }
 
