@@ -7,6 +7,9 @@
     
 }
 
+body{
+    font-family: 'Inter', sans-serif;
+}
 .content{
     display: flex;
 }
@@ -157,6 +160,10 @@ li, hr{
 
 .bg-grey{
     background-color: rgb(243, 248, 248);
+}
+
+.bg-black{
+    background-color: black;
 }
 /* HEADER */
 header{
