@@ -7,9 +7,7 @@
     
 }
 
-body{
-    font-family: 'Inter', sans-serif;
-}
+
 .content{
     display: flex;
 }
@@ -19,6 +17,10 @@ body{
 
 .padding-section{
     padding-top: 50px;
+}
+
+.padding-bot{
+    padding-bottom: 30px;
 }
 
 .margin-top{
@@ -85,6 +87,7 @@ body{
     padding: 7px 10px;
     color: white;
     text-align: center;
+    height: fit-content;
 }
 
 .right{
@@ -187,8 +190,25 @@ header{
 }
 /* MAIN */
 
+.position-img{
+    position: absolute;
+    top: 31%;
+    left: 39%;
+}
+
+.position-button{
+    position: absolute;
+    bottom: -111%;
+    left: 65%;
+}
+
 .height-px{
     height: 300px;
+}
+
+.jumbo-size{
+    width: 830px;
+    height: 470px;
 }
 
 .img-jumbo{
